@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		44BB9FFC1EEBA747009A3EF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BB9FFB1EEBA747009A3EF0 /* main.m */; };
 		44BB9FFF1EEBA747009A3EF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BB9FFE1EEBA747009A3EF0 /* AppDelegate.m */; };
-		44BBA0021EEBA747009A3EF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BBA0011EEBA747009A3EF0 /* ViewController.m */; };
-		44BBA0051EEBA747009A3EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44BBA0031EEBA747009A3EF0 /* Main.storyboard */; };
-		44BBA0071EEBA747009A3EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44BBA0061EEBA747009A3EF0 /* Assets.xcassets */; };
-		44BBA00A1EEBA747009A3EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44BBA0081EEBA747009A3EF0 /* LaunchScreen.storyboard */; };
 		44BBA0151EEBA747009A3EF0 /* LikeUUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BBA0141EEBA747009A3EF0 /* LikeUUITests.m */; };
+		44BBA0221EED0356009A3EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44BBA0211EED0356009A3EF0 /* Assets.xcassets */; };
+		44BBA0291EED072F009A3EF0 /* LURootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BBA0281EED072F009A3EF0 /* LURootViewController.m */; };
+		44BBA02C1EED09EC009A3EF0 /* LUBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BBA02B1EED09EC009A3EF0 /* LUBaseViewController.m */; };
+		44BBA0301EED0B10009A3EF0 /* LURecomendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BBA02F1EED0B10009A3EF0 /* LURecomendViewController.m */; };
+		44BBA0331EED0B24009A3EF0 /* LUFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BBA0321EED0B24009A3EF0 /* LUFindViewController.m */; };
+		44BBA0361EED0C41009A3EF0 /* LUMindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BBA0351EED0C41009A3EF0 /* LUMindViewController.m */; };
+		44BBA0391EED0C4F009A3EF0 /* LUUserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BBA0381EED0C4F009A3EF0 /* LUUserCenterViewController.m */; };
+		44BBA03D1EED2CA4009A3EF0 /* LUBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BBA03C1EED2CA4009A3EF0 /* LUBaseTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,15 +35,26 @@
 		44BB9FFB1EEBA747009A3EF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44BB9FFD1EEBA747009A3EF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44BB9FFE1EEBA747009A3EF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		44BBA0001EEBA747009A3EF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		44BBA0011EEBA747009A3EF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		44BBA0041EEBA747009A3EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		44BBA0061EEBA747009A3EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		44BBA0091EEBA747009A3EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44BBA00B1EEBA747009A3EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44BBA0101EEBA747009A3EF0 /* LikeUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44BBA0141EEBA747009A3EF0 /* LikeUUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikeUUITests.m; sourceTree = "<group>"; };
 		44BBA0161EEBA747009A3EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44BBA0211EED0356009A3EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44BBA0271EED072F009A3EF0 /* LURootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LURootViewController.h; sourceTree = "<group>"; };
+		44BBA0281EED072F009A3EF0 /* LURootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LURootViewController.m; sourceTree = "<group>"; };
+		44BBA02A1EED09EC009A3EF0 /* LUBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUBaseViewController.h; sourceTree = "<group>"; };
+		44BBA02B1EED09EC009A3EF0 /* LUBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUBaseViewController.m; sourceTree = "<group>"; };
+		44BBA02E1EED0B10009A3EF0 /* LURecomendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LURecomendViewController.h; sourceTree = "<group>"; };
+		44BBA02F1EED0B10009A3EF0 /* LURecomendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LURecomendViewController.m; sourceTree = "<group>"; };
+		44BBA0311EED0B24009A3EF0 /* LUFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUFindViewController.h; sourceTree = "<group>"; };
+		44BBA0321EED0B24009A3EF0 /* LUFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUFindViewController.m; sourceTree = "<group>"; };
+		44BBA0341EED0C41009A3EF0 /* LUMindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUMindViewController.h; sourceTree = "<group>"; };
+		44BBA0351EED0C41009A3EF0 /* LUMindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUMindViewController.m; sourceTree = "<group>"; };
+		44BBA0371EED0C4F009A3EF0 /* LUUserCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUUserCenterViewController.h; sourceTree = "<group>"; };
+		44BBA0381EED0C4F009A3EF0 /* LUUserCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUUserCenterViewController.m; sourceTree = "<group>"; };
+		44BBA03A1EED26CD009A3EF0 /* LUBaseTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUBaseTools.h; sourceTree = "<group>"; };
+		44BBA03B1EED2CA4009A3EF0 /* LUBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUBaseTableViewController.h; sourceTree = "<group>"; };
+		44BBA03C1EED2CA4009A3EF0 /* LUBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUBaseTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +96,17 @@
 		44BB9FF91EEBA747009A3EF0 /* LikeU */ = {
 			isa = PBXGroup;
 			children = (
+				44BBA0261EED049A009A3EF0 /* Tool */,
+				44BBA0231EED0477009A3EF0 /* Category */,
+				44BBA0241EED0477009A3EF0 /* Base */,
+				44BBA0251EED0477009A3EF0 /* Common */,
+				44BBA02D1EED0A8F009A3EF0 /* Home */,
 				44BB9FFD1EEBA747009A3EF0 /* AppDelegate.h */,
 				44BB9FFE1EEBA747009A3EF0 /* AppDelegate.m */,
-				44BBA0001EEBA747009A3EF0 /* ViewController.h */,
-				44BBA0011EEBA747009A3EF0 /* ViewController.m */,
-				44BBA0031EEBA747009A3EF0 /* Main.storyboard */,
-				44BBA0061EEBA747009A3EF0 /* Assets.xcassets */,
-				44BBA0081EEBA747009A3EF0 /* LaunchScreen.storyboard */,
+				44BBA0271EED072F009A3EF0 /* LURootViewController.h */,
+				44BBA0281EED072F009A3EF0 /* LURootViewController.m */,
 				44BBA00B1EEBA747009A3EF0 /* Info.plist */,
+				44BBA0211EED0356009A3EF0 /* Assets.xcassets */,
 				44BB9FFA1EEBA747009A3EF0 /* Supporting Files */,
 			);
 			path = LikeU;
@@ -109,6 +127,54 @@
 				44BBA0161EEBA747009A3EF0 /* Info.plist */,
 			);
 			path = LikeUUITests;
+			sourceTree = "<group>";
+		};
+		44BBA0231EED0477009A3EF0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		44BBA0241EED0477009A3EF0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				44BBA02A1EED09EC009A3EF0 /* LUBaseViewController.h */,
+				44BBA02B1EED09EC009A3EF0 /* LUBaseViewController.m */,
+				44BBA03B1EED2CA4009A3EF0 /* LUBaseTableViewController.h */,
+				44BBA03C1EED2CA4009A3EF0 /* LUBaseTableViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		44BBA0251EED0477009A3EF0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		44BBA0261EED049A009A3EF0 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				44BBA03A1EED26CD009A3EF0 /* LUBaseTools.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		44BBA02D1EED0A8F009A3EF0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				44BBA02E1EED0B10009A3EF0 /* LURecomendViewController.h */,
+				44BBA02F1EED0B10009A3EF0 /* LURecomendViewController.m */,
+				44BBA0311EED0B24009A3EF0 /* LUFindViewController.h */,
+				44BBA0321EED0B24009A3EF0 /* LUFindViewController.m */,
+				44BBA0341EED0C41009A3EF0 /* LUMindViewController.h */,
+				44BBA0351EED0C41009A3EF0 /* LUMindViewController.m */,
+				44BBA0371EED0C4F009A3EF0 /* LUUserCenterViewController.h */,
+				44BBA0381EED0C4F009A3EF0 /* LUUserCenterViewController.m */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,9 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44BBA00A1EEBA747009A3EF0 /* LaunchScreen.storyboard in Resources */,
-				44BBA0071EEBA747009A3EF0 /* Assets.xcassets in Resources */,
-				44BBA0051EEBA747009A3EF0 /* Main.storyboard in Resources */,
+				44BBA0221EED0356009A3EF0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,9 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44BBA0021EEBA747009A3EF0 /* ViewController.m in Sources */,
+				44BBA0331EED0B24009A3EF0 /* LUFindViewController.m in Sources */,
+				44BBA02C1EED09EC009A3EF0 /* LUBaseViewController.m in Sources */,
+				44BBA03D1EED2CA4009A3EF0 /* LUBaseTableViewController.m in Sources */,
+				44BBA0291EED072F009A3EF0 /* LURootViewController.m in Sources */,
 				44BB9FFF1EEBA747009A3EF0 /* AppDelegate.m in Sources */,
+				44BBA0301EED0B10009A3EF0 /* LURecomendViewController.m in Sources */,
 				44BB9FFC1EEBA747009A3EF0 /* main.m in Sources */,
+				44BBA0361EED0C41009A3EF0 /* LUMindViewController.m in Sources */,
+				44BBA0391EED0C4F009A3EF0 /* LUUserCenterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,25 +307,6 @@
 			targetProxy = 44BBA0111EEBA747009A3EF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		44BBA0031EEBA747009A3EF0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44BBA0041EEBA747009A3EF0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		44BBA0081EEBA747009A3EF0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44BBA0091EEBA747009A3EF0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		44BBA0171EEBA747009A3EF0 /* Debug */ = {
@@ -415,6 +466,7 @@
 				44BBA01B1EEBA747009A3EF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44BBA01C1EEBA747009A3EF0 /* Build configuration list for PBXNativeTarget "LikeUUITests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +475,7 @@
 				44BBA01E1EEBA747009A3EF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
